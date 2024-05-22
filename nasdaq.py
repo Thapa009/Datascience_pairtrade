@@ -11,7 +11,7 @@ REBALANCE_PERIOD = 'M'  # 'M' for monthly, 'W' for weekly
 
 # Step 1: Retrieve historical data for all NASDAQ stocks
 def get_nasdaq_tickers():
-    # You should create a CSV or fetch from an API. For simplicity, using a small subset.
+    
     return ["AAPL", "MSFT", "GOOGL", "AMZN", "META"]  # Changed 'FB' to 'META' for current symbol
 
 def retrieve_nasdaq_data(tickers, start, end):
